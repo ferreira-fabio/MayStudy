@@ -2,12 +2,12 @@
 
 
 
-//Menu();
+Menu();
 
 //EXEMPLO PARA USAR SUBSTRING 
 
 
-System.Console.WriteLine("Teste!!");
+/*System.Console.WriteLine("Teste!!");
 Thread.Sleep(1000);
 System.Console.WriteLine("Entre com o valor de contagem e por fim se queres minuto ou segundo: ");
 System.Console.WriteLine("Exemplo ==> 10s ou 2m");
@@ -18,6 +18,8 @@ var type = option.Substring(option.Length - 1, 1);//<--- indico daonde quero que
 
 System.Console.WriteLine($" O tempo é: {time} ");
 System.Console.WriteLine($"O tipo é: {type}");
+*/
+
 
 
 
@@ -57,7 +59,6 @@ static void Menu()
     char option = char.Parse(Console.ReadLine().ToLower());
 
 
-    //var option = Console.ReadLine().ToLower();
 
     switch (option)
     {
